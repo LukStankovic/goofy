@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07A2C72D1CE8622E0050E6B1 /* server in Resources */ = {isa = PBXBuildFile; fileRef = 07A2C72C1CE8622E0050E6B1 /* server */; };
 		3327A60D1AD16EA100B71853 /* WKPreferences+DevExtras.m in Resources */ = {isa = PBXBuildFile; fileRef = 3327A60C1AD16EA100B71853 /* WKPreferences+DevExtras.m */; };
 		338FDBB61AD91FAD00164747 /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FDBB51AD91FAD00164747 /* TitleLabel.swift */; };
 		33942F9D1A2AE7F700E6D361 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33942F9C1A2AE7F700E6D361 /* AppDelegate.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		07A2C72C1CE8622E0050E6B1 /* server */ = {isa = PBXFileReference; lastKnownFileType = folder; path = server; sourceTree = "<group>"; };
 		3327A60A1AD16DF500B71853 /* Goofy-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Goofy-Bridging-Header.h"; sourceTree = "<group>"; };
 		3327A60B1AD16E7400B71853 /* WKPreferences+DevExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKPreferences+DevExtras.h"; sourceTree = "<group>"; };
 		3327A60C1AD16EA100B71853 /* WKPreferences+DevExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKPreferences+DevExtras.m"; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 		33942F8E1A2AE7F700E6D361 = {
 			isa = PBXGroup;
 			children = (
+				07A2C72C1CE8622E0050E6B1 /* server */,
 				3327A60B1AD16E7400B71853 /* WKPreferences+DevExtras.h */,
 				3327A60C1AD16EA100B71853 /* WKPreferences+DevExtras.m */,
 				3327A60A1AD16DF500B71853 /* Goofy-Bridging-Header.h */,
@@ -151,6 +154,7 @@
 				TargetAttributes = {
 					33942F961A2AE7F700E6D361 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = DSEHBKSB68;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
 								enabled = 0;
@@ -183,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3327A60D1AD16EA100B71853 /* WKPreferences+DevExtras.m in Resources */,
+				07A2C72D1CE8622E0050E6B1 /* server in Resources */,
 				33942F9F1A2AE7F700E6D361 /* Images.xcassets in Resources */,
 				33942FA21A2AE7F700E6D361 /* MainMenu.xib in Resources */,
 			);
@@ -357,7 +362,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -385,7 +390,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (

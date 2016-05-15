@@ -320,6 +320,7 @@ var EMOJI_TABLE = {
 	"emoticon_penguin": "🐧",
 	"emoticon_poop": "💩",
 	"emoticon_putnam": ":putnam:",
+    "_3kkw": "😂",
 	"_1q3y": "😊",
 	"_2c0": "🌂",
 	"_2c1": "🌊",
